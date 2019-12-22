@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Will Gelder',
-  tagline: 'Design System Creator',
+  tagline: 'Makes Design Systems',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -21,11 +21,11 @@ export default {
     {
       name: 'About',
       link: '/about'
-    },
-    {
-      name: 'Contact',
-      link: '/contact'
     }
+    // {
+    //   name: 'Contact',
+    //   link: '/contact'
+    // }
     // {
     //   name: 'Categories',
     //   link: '/categories'
