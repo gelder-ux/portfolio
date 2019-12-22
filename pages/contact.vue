@@ -1,8 +1,8 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
+      title="Contact"
+      subtitle="Feel free to reach out"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -48,13 +48,12 @@
           </div>
         </div>
       </template>
-      <template v-slot:sidebar>
+      <!-- <template v-slot:sidebar>
         <h3 class="subtitle is-4">
           Latest Posts
         </h3>
-        <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />
-      </template>
+      </template> -->
     </main-section>
   </div>
 </template>

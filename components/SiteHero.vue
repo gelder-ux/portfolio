@@ -133,6 +133,10 @@ export default {
   .hero-body {
     position: relative;
     z-index: 2;
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
   }
 }
 .hero-theme-dark {
