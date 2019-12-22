@@ -55,7 +55,7 @@ export default {
       display: block;
       height: 40px;
       margin: 5px;
-      max-height: initial;
+      //max-height: initial;
     }
     &.blink {
       animation: logoBlink 0.2s steps(8, end) alternate;
