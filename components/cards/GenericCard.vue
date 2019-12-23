@@ -29,7 +29,7 @@
             >
               {{ title }}
             </h3>
-            <h4
+            <!-- <h4
               :class="{
                 subtitle: true,
                 'is-6': true,
@@ -37,7 +37,7 @@
               }"
             >
               <slot></slot>
-            </h4>
+            </h4> -->
           </nuxt-link>
         </div>
       </div>

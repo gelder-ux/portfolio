@@ -1,7 +1,7 @@
 <template>
   <div id="post-page" class="page-wrapper post-page">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
-      <span
+      <!-- <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
       >
@@ -9,7 +9,7 @@
       </span>
       <span v-if="date" class="date-wrapper">
         <strong>Published on:</strong> {{ date }}
-      </span>
+      </span> -->
     </site-hero>
     <main-section :one-column-constrained="true">
       <template v-slot:default>

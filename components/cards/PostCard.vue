@@ -9,7 +9,7 @@
         null
     "
   >
-    <span
+    <!-- <span
       v-if="author && $siteConfig.posts.displayAuthor"
       class="author-wrapper"
     >
@@ -17,7 +17,7 @@
     </span>
     <span v-if="date" class="date-wrapper">
       <strong>Published on:</strong> {{ datePretty }}
-    </span>
+    </span> -->
   </generic-card>
 </template>
 

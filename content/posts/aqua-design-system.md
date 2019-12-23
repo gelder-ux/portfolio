@@ -1,11 +1,11 @@
 ---
-title: Getting Started
-subtitle: Get Up and Running with Awake
+title: Aqua Design System
+subtitle: CBORD & Horizon Software
 category:
-  - About Awake
-author: Daniel Kelly
-date: 2019-08-03T19:59:59.000Z
-featureImage: /uploads/getting-started-hero.jpg
+  - Design Systems
+# author: Will Gelder
+# date: 2019-08-03T19:59:59.000Z
+featureImage: /uploads/ads-logo.png
 ---
 Awake is a Nuxt.js template for generating a beautifully robust static site with blog. 
 

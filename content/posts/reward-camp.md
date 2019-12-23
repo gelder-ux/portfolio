@@ -1,11 +1,11 @@
 ---
-title: Comments Support
-subtitle: Add Comments to Posts With Disqus
+title: RewardCamp
+subtitle: Ecommerce Rewards Program
 category:
   - Third Party Integrations
 author: Daniel Kelly
 date: 2019-07-24T19:59:59.000Z
-featureImage: /uploads/disqus-hero.jpg
+featureImage: /uploads/rc.png
 ---
 Disqus brings the power of commenting to the Awake template. It provides features like moderation, reactions, filtering, and social sharing out of the box. Best of all, it's free and super easy to setup!
 
