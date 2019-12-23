@@ -111,4 +111,10 @@ export default {
     transform: scale(1.02);
   }
 }
+.card {
+  border-radius: 1rem;
+  .image {
+    border-radius: 1rem 1rem 0 0;
+  }
+}
 </style>
