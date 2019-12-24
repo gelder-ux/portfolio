@@ -49,4 +49,8 @@ export default {
 .home-page .under-subtitle {
   border-top: none;
 }
+
+html {
+  background-color: #f4f4f4;
+}
 </style>
