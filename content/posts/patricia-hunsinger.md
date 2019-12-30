@@ -2,7 +2,7 @@
 title: Patricia Hunsinger
 subtitle: Artist Portfolio
 category:
-  - Third Party Integrations
+  - Freelance
 author: Daniel Kelly
 date: 2019-08-01T03:49:49.295Z
 featureImage: /uploads/ph.png

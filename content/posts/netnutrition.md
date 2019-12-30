@@ -1,9 +1,9 @@
 ---
 title: NetNutrition
-subtitle: Purge CSS Bundles Only the Required CSS
+subtitle: Campus Menus and Food Nutrition
 category:
-  - About Awake
-author: Daniel Kelly
+  - Food
+author: Will Gelder
 date: 2019-07-29T17:30:16.858Z
 featureImage: /uploads/nn.png
 ---

@@ -2,41 +2,39 @@
 title: CBORD Patient
 subtitle: Designing a Better Patient Experience
 category:
-  - About Awake
-author: Daniel Kelly
+  - Food
+author: Will Gelder
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/cp.png
 ---
 ## Overview
 
-CBORD Patient is a food ordering app designed for patients in the hospital.
+CBORD Patient provides hospital patients with meals offerings that are custom tailored to their dietary needs and restrictions during their stay. 
 
-## Nuxt.js
+Download
+- [App Store](https://apps.apple.com/us/app/cbord-patient/id1319336992)
+- [Google Play](https://play.google.com/store/apps/details?id=com.cbord.patient&hl=en_US)
 
-[Nuxt.js](https://www.nuxtjs.org) has the ability to generate static sites that are served on the JAM Stack, building plain old html files... but those html files are super-powered with Vue.js. What this means, is that pages have content "hard coded" into the html files for top-rate SEO scores but after initial page load behave as a traditional SPA with smooth page transitions, minimal data served between requests, etc. This means Awake is fast both on both the first page visitors hit and even faster on subsequent pages.
+### Role: 
+- UI/UX Designer
 
-## Purge CSS
+## Landscape
+A number of our past solutions were already in use by our customers by the start of the project. These past solutions (while being desktop-only) allowed hospitals to manage menus, dietary restrictions, and ordering. All of the pieces were nearly in place. However, hospital staff still had to sink time into taking patient meal selections and inputing them into the system as orders. 
 
-Awake uses the [Bulma](https://bulma.io/) framework for a starting place for styles but certainly doesn't use every style the Bulma framework provides. [Purge CSS](https://www.purgecss.com/) minimizes the css sent to the browser by removing any unused styles at compile time. You can read more about how Awake uses Purge CSS in this [post](/light-css-footprint).
+For patients with diet orders (such as "low sodium" or "low fiber") would have to ask staff if certain meal options were okay to eat, if they asked at all. Medical errors are a prime concern for patients and caregivers, and so proper adherence to diet orders is a priority for all.  
 
-## Opti-Image + Responsive Loader
+We had an opportunity to improve both the staff and the patient experiences, and so we set out to design a solution that would hopefully alleviate some of the above pain points and address the following problems. 
 
-[Opti-Image](https://www.npmjs.com/package/opti-image) is a little vue component I wrote to be able to serve images in the most performant way possible. It supports webp's for browser's that support it (though not using the webp functionality for Awake, yet...), lazy loading out of the box, and easy srcset management. [Responsive Loader (the Nuxt Flavor)](https://www.npmjs.com/package/nuxt-responsive-loader) auto optimizes image quality for best performance in the browser and creates multiple sizes for different devices. Combine these 2 together and all image on Awake are basically guaranteed to fly. 
+## Problems
+- How can patients be sure that the meals they eat during their stay comply with their dietary requirements?
+- How can we help hospitals operate more efficiently when it comes to meal service?
 
-## Font Awesome 5
+## Brainstorming
+From a development perspective, the back-end systems provided us with key pieces of information: patients, diet restrictions, menus, and meal orders; we simply had to design an intuitive front end for use by patients. However, the legal requirements specific to software in healthcare, especially in relation to patients, are strict.    
 
-Awake comes with Font Awesome 5 support out of the box, so you have a wealth of free quality icons at your finger tips. However, if you're used to using Font Awesome in the more traditional manner without a build step you may be thinking: "What about all those icons I don't actually use? Aren't they just bloat?" Not so with Awake, with webpack we can bundle only the icons we're using. This does mean an extra step of registering a new icon when you want to use it, but that's as easy as adding it to an array in `config/modules.js` like so: 
+## Wireframes & Prototypes
 
-```
- icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
-```
+## Usability Testing
 
-## Lazy Loading Like Crazy
-
-In order to speed up both compile time and page load time, basically everything but the header, footer, hero, and main content of the posts are lazy loaded. All grids are lazy loaded with infinite scroll and all images (feature images and those in posts) are also lazy loaded. Comments can be lazy loaded or loaded on click of "Show Comments" button.
-
-## Pretty Stinkin' Fast, I'd Say
-
-I've taken a number of steps to try and make Awake as fast and snappy as possible for the end user and I think you'll find it's been handled fairly well. Last I ran one of the posts through Page Speed Insights I got a 99 score for desktop and 89 for mobile. [Give it a try for yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fawake-template.netlify.com%2Fpost-markup-and-formatting%2F&tab=desktop)
-
-![Page speed insights score 99!!](/uploads/page-speed-insights.jpg)
+## Future Plans
+- Guest Payment

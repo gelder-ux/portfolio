@@ -2,7 +2,7 @@
 title: RewardCamp
 subtitle: Ecommerce Rewards Program
 category:
-  - Third Party Integrations
+  - Freelance
 author: Daniel Kelly
 date: 2019-07-24T19:59:59.000Z
 featureImage: /uploads/rc.png
