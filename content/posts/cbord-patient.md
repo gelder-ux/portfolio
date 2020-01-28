@@ -7,16 +7,10 @@ author: Will Gelder
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/cp.png
 ---
+Role: UI/UX Designer
+
 ## Overview
-
 CBORD Patient provides hospital patients with meals offerings that are custom tailored to their dietary needs and restrictions during their stay. 
-
-Download
-- [App Store](https://apps.apple.com/us/app/cbord-patient/id1319336992)
-- [Google Play](https://play.google.com/store/apps/details?id=com.cbord.patient&hl=en_US)
-
-### Role: 
-- UI/UX Designer
 
 ## Landscape
 A number of our past solutions were already in use by our customers by the start of the project. These past solutions (while being desktop-only) allowed hospitals to manage menus, dietary restrictions, and ordering. All of the pieces were nearly in place. However, hospital staff still had to sink time into taking patient meal selections and inputing them into the system as orders. 
@@ -38,3 +32,7 @@ From a development perspective, the back-end systems provided us with key pieces
 
 ## Future Plans
 - Guest Payment
+
+Download
+- [App Store](https://apps.apple.com/us/app/cbord-patient/id1319336992)
+- [Google Play](https://play.google.com/store/apps/details?id=com.cbord.patient&hl=en_US)
