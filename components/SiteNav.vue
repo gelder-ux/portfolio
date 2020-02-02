@@ -37,7 +37,7 @@
           </component>
         </li>
         <li class="navbar-item cta-wrapper">
-          <a class="cta" href="mailto:willgelder9@gmail.com?subject=Hello Will">willgelder91@gmail.com</a>
+          <a class="cta" href="mailto:willgelder9@gmail.com?subject=Hello Will">Reach Out</a>
         </li>
         <!-- <li class="navbar-item site-search-wrapper">
           <site-search />
