@@ -145,7 +145,7 @@ a.logo {
       &.cta-wrapper {
         padding: 1rem;
         position: fixed;
-        bottom: 4rem;
+        bottom:0;
         @media screen and (min-width: 1024px) {
           position: relative;
           bottom: initial;     
@@ -171,7 +171,7 @@ a.logo {
           color:#1b1d26;
           padding: 1rem 1rem;
           text-align: center;
-          font-size: 1.5rem;
+          font-size: 1rem;
           @media screen and (min-width: 1024px) {
             padding: 0.75rem 0;
             font-size: 0.9rem;
@@ -192,13 +192,11 @@ a.logo {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     @media screen and (min-width: 1024px) {
       position: relative;
       top: initial;
       height: auto;
       flex-direction: row;
-      justify-content: flex-start;
     }
     & ul {
       flex-grow: 0;
@@ -208,7 +206,7 @@ a.logo {
         margin-bottom: initial;
       }
       & a {
-        font-size: 2rem;
+        font-size: 1.25rem;
         padding: 1.5rem 2rem;
         @media screen and (min-width: 1024px) {
           font-size: initial;
