@@ -1,5 +1,5 @@
 <template>
-  <section :class="`hero is-medium hero-theme-${computedTheme}`">
+  <section :class="`hero is-large hero-theme-${computedTheme}`">
     <img
       class="hero-bg-img"
       :src="responsiveImage.src"
@@ -58,14 +58,13 @@ export default {
   background-size: cover !important;
   background-position: center;
   text-align: center;
-  overflow: hidden;
   position: relative;
 }
 
 .title {
-  font-weight: 300;
+  font-weight: 600;
   @media (min-width: 768px) {
-    font-size: 3.2rem;
+    font-size: 6rem;
   }
 }
 .subtitle,
@@ -93,15 +92,17 @@ export default {
 </style>
 <style lang="scss">
 .hero {
+  overflow: auto;
   .hero-bg-img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    display: none;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    // object-fit: cover;
+    // width: 100%;
+    // height: 100%;
   }
   .opti-image {
     opacity: 0;
@@ -149,13 +150,7 @@ export default {
 }
 .hero-theme-light.hero {
   &:after {
-    background: rgba(255, 255, 255, 0.6);
-  }
-  .title,
-  .subtitle,
-  .under-subtitle,
-  .under-subtitle strong {
-    text-shadow: 1px 1px 2px white;
+    background: rgba(255, 255, 255, 1);
   }
 }
 </style>

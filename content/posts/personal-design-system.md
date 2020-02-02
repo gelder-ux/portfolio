@@ -3,8 +3,8 @@ title: Gelder Design System
 subtitle: Distilling best practices into one reusable system
 category:
   - Design Systems
-# author: Will Gelder
-# date: 2019-08-03T19:59:59.000Z
+author: Will Gelder
+date: 2019-08-03T19:59:59.000Z
 featureImage: /uploads/wag-ds-logo.png
 ---
 # Overview

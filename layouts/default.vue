@@ -1,16 +1,25 @@
 <template>
   <div
     :class="
-      `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
+      `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme} grid`
     "
   >
     <site-nav />
     <nuxt />
-    <news-letter-slide-out v-if="$siteConfig.newsletter.on" />
-    <site-footer></site-footer>
+    <!-- <news-letter-slide-out v-if="$siteConfig.newsletter.on" /> -->
   </div>
 </template>
-
+<style lang="scss" scoped>
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 256px 1fr 1fr;
+  grid-template-areas: "nav nav nav" "main main main";
+  @media screen and (min-width: 1024px) {
+    grid-template-areas: 'nav main main' 'nav main main';    
+  }
+}
+</style>
 <script>
 import 'animate.css/animate.min.css'
 export default {

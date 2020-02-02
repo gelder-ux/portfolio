@@ -38,6 +38,7 @@
             >
               <slot></slot>
             </h4> -->
+            <slot></slot>
           </nuxt-link>
         </div>
       </div>
@@ -116,5 +117,7 @@ export default {
   .image {
     border-radius: 1rem 1rem 0 0;
   }
+  box-shadow: none;
+  border: 1px solid #efefef;
 }
 </style>

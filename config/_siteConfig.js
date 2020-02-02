@@ -10,8 +10,10 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Will Gelder',
-  tagline: 'UX Designer',
-  featureImage: '/uploads/home-hero.jpg',
+  // prettier-ignore
+  tagline: 'UX Designer with a penchant for diagramming everything',
+  // featureImage: '/uploads/home-hero.jpg',
+  featureImage: '',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -19,34 +21,30 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
-      link: '/about'
-    }
+      name: 'Home',
+      link: '/'
+    },
+    {
+      name: 'Resume',
+      link: '/will-gelder-resume.pdf',
+      target: '_blank'
+    },
     // {
     //   name: 'Contact',
     //   link: '/contact'
-    // }
-    // {
-    //   name: 'Categories',
-    //   link: '/categories'
-    // }
-    // {
-    //   name: 'Portfolio',
-    //   link: '/posts'
-    // }
-    // {
-    //   name: 'Github Repo',
-    //   link: 'https://github.com/danielkellyio/awake-template',
-    //   target: '_blank'
     // },
-    // {
-    //   name: 'Awake+ Premium',
-    //   link: 'https://awake-premium-lp.netlify.com/',
-    //   target: '_blank'
-    // }
+    {
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/will-gelder-02920070/',
+      target: '_blank'
+    },
+    {
+      name: 'About',
+      link: '/about'
+    }
   ],
   hero: {
-    theme: 'dark' // options: mist, light, dark
+    theme: 'light' // options: mist, light, dark
   },
 
   // Main Layout/Style
@@ -101,9 +99,9 @@ export default {
     imageDimensions: null, // See card.imageDimensions (can be unique for posts if set here)
     displayAuthor: false,
     date: {
-      display: false
+      display: true
     },
-    perRow: 3,
+    perRow: 2,
     perPage: 6
   }
 }

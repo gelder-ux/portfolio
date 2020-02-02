@@ -2,4 +2,4 @@
 name: Freelance
 image: /logo.svg
 ---
-Freelance-related projects
+Freelance work

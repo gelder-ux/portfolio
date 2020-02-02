@@ -1,5 +1,5 @@
 <template>
-  <div id="home-page" class="page-wrapper home-page">
+  <div id="home-page" class="page-wrapper home-page main">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <!-- <button
         class="button is-primary"
@@ -17,7 +17,8 @@
         Nothing here
       </template>
     </main-section>
-    <news-letter-form-modal />
+    <site-footer></site-footer>
+    <!-- <news-letter-form-modal /> -->
   </div>
 </template>
 
@@ -30,7 +31,7 @@ export default {
   name: 'HomePage',
   head() {
     return {
-      title: `Home | ${this.$siteConfig.siteName}`
+      title: `${this.$siteConfig.siteName} | UX Designer`
     }
   },
   components: {
@@ -50,7 +51,17 @@ export default {
   border-top: none;
 }
 
+.main {
+  grid-area: main;
+  overflow: auto;
+}
+
 html {
-  background-color: #f4f4f4;
+  background-color: #fff;
+  overflow: auto;
+}
+
+body {
+  font-family: 'Asap', sans-serif;
 }
 </style>

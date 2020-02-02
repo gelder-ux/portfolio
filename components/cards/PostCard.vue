@@ -3,6 +3,7 @@
     :title="title"
     :image="image"
     :link="link"
+    :date="date"
     :image-dimensions="
       $siteConfig.posts.imageDimensions ||
         $siteConfig.cards.imageDimensions ||
@@ -14,10 +15,10 @@
       class="author-wrapper"
     >
       <strong>Author:</strong> {{ author }} |
-    </span>
-    <span v-if="date" class="date-wrapper">
-      <strong>Published on:</strong> {{ datePretty }}
     </span> -->
+    <span v-if="date" class="date-wrapper">
+      {{ datePretty }}
+    </span>
   </generic-card>
 </template>
 

@@ -3,7 +3,7 @@ title: Patricia Hunsinger
 subtitle: Artist Portfolio
 category:
   - Freelance
-author: Daniel Kelly
+author: Will Gelder
 date: 2019-08-01T03:49:49.295Z
 featureImage: /uploads/ph.png
 ---

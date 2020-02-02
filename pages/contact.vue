@@ -5,7 +5,7 @@
       subtitle="Feel free to reach out"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
-    <main-section theme="sidebar-right">
+    <main-section theme="">
       <template v-slot:default>
         <div class="tile is-ancestor">
           <div class="tile is-parent">

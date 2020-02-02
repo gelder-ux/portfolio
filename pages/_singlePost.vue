@@ -1,5 +1,5 @@
 <template>
-  <div id="post-page" class="page-wrapper post-page">
+  <div id="post-page" class="page-wrapper post-page main">
     <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
       <!-- <span
         v-if="author && $siteConfig.posts.displayAuthor"
@@ -29,6 +29,7 @@
         <post-sidebar />
       </template>
     </main-section>
+    <site-footer></site-footer>
   </div>
 </template>
 <script>

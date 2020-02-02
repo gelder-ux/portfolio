@@ -1,11 +1,9 @@
 <template>
   <nav
-    class="navbar has-shadow is-fixed-top"
-    role="navigation"
-    aria-label="main navigation"
-  >
+    class="navbar navigation" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <nuxt-link class="navbar-item" to="/">
+      <hamburger-button @click="active = !active" />
+      <nuxt-link class="navbar-item logo" to="/">
         <site-logo v-if="$siteConfig.logo === 'logo-component'" />
         <img
           v-else
@@ -14,7 +12,6 @@
           class="logo"
         />
       </nuxt-link>
-      <hamburger-button @click="active = !active" />
     </div>
 
     <div
@@ -60,6 +57,35 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+.navigation {
+  grid-area: nav;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  @media screen and (min-width: 1024px) {
+    justify-content: flex-start;
+    width: auto;
+    height: 100%;
+  }
+}
+
+.navbar {
+  background-image: linear-gradient(179deg, #191A20 0%, #1E202D 100%);
+  width: 100%;
+  &-brand {
+    justify-content: space-between;
+    @media screen and (min-width: 1024px) {
+      justify-content: center;
+    }
+  }
+  &-end {
+    @media screen and (min-width: 1024px) {
+      margin-left: 0;
+    }
+  }
+}
+
 .navbar-item img {
   max-height: 4rem;
 }
@@ -70,10 +96,54 @@ export default {
   }
 }
 .navbar-burger {
-  height: auto;
+  width: 5rem;
+  height: 5rem;
+  margin-left: 0;
+  color: #fff;
 }
 
 .navbar-menu a {
   display: block;
+}
+
+.navbar-menu {
+  flex-grow: 0;
+  box-shadow: none;
+  padding: 0;
+  background-image: linear-gradient(179deg, #191A20 0%, #1E202D 100%);
+  @media screen and (min-width: 1024px) {
+    background-image: none;
+  }
+
+  & ul {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    & li {
+    padding: 0;
+      a {
+        width: 100%;
+        padding: 0.5rem 2rem;
+        color: #fff;
+        font-weight: 600;
+        &:hover,
+        &:focus {
+          color: #ddd;
+        }
+      }
+    }
+  }
+  &.is-active {
+    position: fixed;
+    top: 80px;
+    height: 100%;
+    max-width: 256px;
+    min-width: 200px;
+    @media screen and (min-width: 1024px) {
+      position: relative;
+      top: 0;
+      height: auto;
+    }
+  }
 }
 </style>
