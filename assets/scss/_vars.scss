@@ -3,6 +3,7 @@
 
 // Set your colors
 $primary: #007d6b;
+$primary-accent: #acfcc4;
 $primary-invert: findColorInvert($primary);
 $twitter: #4099FF;
 $twitter-invert: findColorInvert($twitter);
@@ -13,7 +14,7 @@ $colors: (
   "black": ($black, $white),
   "light": ($light, $light-invert),
   "dark": ($dark, $dark-invert),
-  "primary": ($primary, $primary-invert),
+  "primary": ($primary, $primary-invert, $primary-accent),
   "info": ($info, $info-invert),
   "success": ($success, $success-invert),
   "warning": ($warning, $warning-invert),

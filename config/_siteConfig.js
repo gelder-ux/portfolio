@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Will Gelder',
   // prettier-ignore
-  tagline: 'UX Designer with a penchant for diagramming everything',
+  tagline: 'A UX Designer with a penchant for complexity',
   // featureImage: '/uploads/home-hero.jpg',
   featureImage: '',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
@@ -21,8 +21,13 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Home',
+      name: 'Work',
       link: '/'
+    },
+    {
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/will-gelder-02920070/',
+      target: '_blank'
     },
     {
       name: 'Resume',
@@ -33,15 +38,6 @@ export default {
     //   name: 'Contact',
     //   link: '/contact'
     // },
-    {
-      name: 'LinkedIn',
-      link: 'https://www.linkedin.com/in/will-gelder-02920070/',
-      target: '_blank'
-    },
-    {
-      name: 'About',
-      link: '/about'
-    }
   ],
   hero: {
     theme: 'light' // options: mist, light, dark

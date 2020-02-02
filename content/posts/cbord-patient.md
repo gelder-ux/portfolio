@@ -4,11 +4,12 @@ subtitle: Designing a Better Patient Experience
 category:
   - Food
 author: Will Gelder
-date: 2018-11-00
+date: 2019-07-29T17:30:16.858Z
 featureImage: /uploads/cp.png
+role: UI/UX Designer
+market: Healthcare
+duration: 1+ years
 ---
-Role: UI/UX Designer
-
 ## Overview
 CBORD Patient provides hospital patients with meals offerings that are custom tailored to their dietary needs and restrictions during their stay. 
 

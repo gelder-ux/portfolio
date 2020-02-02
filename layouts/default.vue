@@ -14,6 +14,7 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 256px 1fr 1fr;
+  grid-template-rows: 80px 1fr;
   grid-template-areas: "nav nav nav" "main main main";
   @media screen and (min-width: 1024px) {
     grid-template-areas: 'nav main main' 'nav main main';    

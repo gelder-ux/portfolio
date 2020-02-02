@@ -1,5 +1,5 @@
 <template>
-  <div id="contact-page" class="page-wrapper contact-page content-page">
+  <div id="contact-page" class="page-wrapper contact-page content-page main">
     <site-hero
       title="Contact"
       subtitle="Feel free to reach out"

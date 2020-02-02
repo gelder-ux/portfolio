@@ -1,6 +1,6 @@
 <template>
   <div id="post-page" class="page-wrapper post-page main">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage">
+    <site-hero :title="title" :subtitle="subtitle" :image="featureImage" :role="role" :market="market" :date="date" :duration="duration">
       <!-- <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
@@ -14,6 +14,11 @@
     <main-section :one-column-constrained="true">
       <template v-slot:default>
         <div class="post-wrapper">
+          <div class="post-meta-details">
+            <span v-if="role"><strong>Role: </strong>{{ role }}</span>
+            <span v-if="market"><strong>Market: </strong>{{ market }}</span>
+            <span v-if="duration"><strong>Duration: </strong>{{ duration }}</span>
+          </div>
           <markdown :markdown="$store.state.content" />
           <div class="other-posts">
             <h6 class="subtitle is-size-4">
@@ -22,12 +27,12 @@
             <!-- Related Posts -->
             <posts-grid :number="3" :category="category" :exclude="slug" />
           </div>
-          <disqus-comments :identifier="$route.params.singlePost" />
+          <!-- <disqus-comments :identifier="$route.params.singlePost" /> -->
         </div>
       </template>
-      <template v-slot:sidebar>
+      <!-- <template v-slot:sidebar>
         <post-sidebar />
-      </template>
+      </template> -->
     </main-section>
     <site-footer></site-footer>
   </div>
@@ -51,7 +56,10 @@ export default {
       'underSubtitle',
       'author',
       'category',
-      'slug'
+      'slug',
+      'role',
+      'market',
+      'duration'
     ]),
     date() {
       return getFormattedDate(this.$store.state.date)
@@ -68,5 +76,20 @@ export default {
 <style scoped lang="scss">
 .edit-post {
   margin-bottom: 20px;
+}
+.post-meta-details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  & span {
+    margin-bottom: 0.25rem;
+    background: #f7f7f7;
+    border-radius: 4rem;
+    padding: 0.25rem 1rem;
+  }
+  & span:not(last-child) {
+    margin-right: 0.5rem;
+  }
+  margin-bottom: 4rem;
 }
 </style>

@@ -11,6 +11,8 @@
         :image="item.featureImage"
         :author="item.author"
         :date="item.date"
+        :role="item.role"
+        :market="item.market"
       />
     </template>
   </resource-grid>

@@ -1,5 +1,5 @@
 <template>
-  <div id="about-page" class="page-wrapper about-page content-page">
+  <div id="about-page" class="page-wrapper about-page content-page main">
     <site-hero
       title="About"
       subtitle=""

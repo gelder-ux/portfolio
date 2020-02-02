@@ -21,6 +21,8 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Featured Image", name: "featureImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Market", name: "market", widget: "string"}
+      - {label: "Role", name: "role", widget: "string"}
   - name: "categories"
     label: "Categories"
     folder: "content/categories"

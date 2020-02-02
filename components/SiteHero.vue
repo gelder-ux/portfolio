@@ -14,7 +14,11 @@
         <h2 class="subtitle animated fadeInUp slower">
           {{ subtitle }}
         </h2>
-        <br />
+        <!-- <div class="details-wrapper">
+          <span v-if="role">Role: {{ role }}</span>
+          <span v-if="date">Timeframe: {{ datePretty }}</span>
+          <span v-if="market">Market: {{ market }}</span>
+        </div> -->
         <div
           v-if="$slots.default"
           class="under-subtitle animated fadeInDown slower"
@@ -26,11 +30,15 @@
   </section>
 </template>
 <script>
+import { getFormattedDate } from '~/helper'
 export default {
   name: 'SiteHero',
   props: {
     title: { type: String, default: '' },
     subtitle: { type: String, default: '' },
+    role: { type: String, default: '' },
+    date: { type: String, default: '' },
+    market: { type: String, default: '' },
     image: { type: String, default: '' },
     color: { type: String, default: '#469af0' },
     theme: { type: String, default: '' }
@@ -47,6 +55,9 @@ export default {
         return this.$siteConfig.hero.theme
       }
       return this.theme || 'mist'
+    },
+    datePretty() {
+      return getFormattedDate(this.date)
     }
   }
 }
@@ -73,7 +84,7 @@ export default {
   margin: 0;
 }
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.5rem;
   margin-bottom: 0 !important;
 }
 .under-subtitle {

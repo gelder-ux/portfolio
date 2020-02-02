@@ -13,9 +13,9 @@
         <!-- All Posts -->
         <posts-grid />
       </template>
-      <template v-slot:sidebar>
+      <!-- <template v-slot:sidebar>
         Nothing here
-      </template>
+      </template> -->
     </main-section>
     <site-footer></site-footer>
     <!-- <news-letter-form-modal /> -->
@@ -26,7 +26,7 @@
 import { mapState } from 'vuex'
 import { setPageData } from '../helper'
 import NewsLetterFormModal from '~/components/NewsLetterFormModal'
-
+import { getFormattedDate } from '~/helper'
 export default {
   name: 'HomePage',
   head() {
@@ -38,7 +38,10 @@ export default {
     NewsLetterFormModal
   },
   computed: {
-    ...mapState(['title', 'subtitle', 'featureImage'])
+    ...mapState(['title', 'subtitle', 'featureImage','date','market','role']),
+    datePretty() {
+      return getFormattedDate(this.date)
+    }
   },
   fetch({ store, params }) {
     setPageData(store, { slug: 'home' })

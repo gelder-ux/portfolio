@@ -36,6 +36,9 @@
             {{ item.name }}
           </component>
         </li>
+        <li class="navbar-item cta-wrapper">
+          <a class="cta" href="mailto:willgelder9@gmail.com?subject=Hello Will">willgelder91@gmail.com</a>
+        </li>
         <!-- <li class="navbar-item site-search-wrapper">
           <site-search />
         </li> -->
@@ -70,6 +73,18 @@ export default {
   }
 }
 
+a.logo {
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }  
+  &:hover,
+  &:focus {
+    background-color: mix(white, #191A20, 5);
+  }
+}
+
 .navbar {
   background-image: linear-gradient(179deg, #191A20 0%, #1E202D 100%);
   width: 100%;
@@ -100,6 +115,10 @@ export default {
   height: 5rem;
   margin-left: 0;
   color: #fff;
+  &:hover,
+  &focus {
+    background-color: mix(white, #191A20, 5);
+  }
 }
 
 .navbar-menu a {
@@ -119,16 +138,49 @@ export default {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+    width: 100%;
     & li {
-    padding: 0;
+      width: 100%;
+      padding: 0;
+      &.cta-wrapper {
+        padding: 1rem;
+        position: fixed;
+        bottom: 4rem;
+        @media screen and (min-width: 1024px) {
+          position: relative;
+          bottom: initial;     
+        }
+        &:hover,
+        &focus {
+          background-color: mix(white, #191A20, 5);
+        }
+      }
       a {
         width: 100%;
-        padding: 0.5rem 2rem;
+        padding: 1rem 2rem;
         color: #fff;
         font-weight: 600;
         &:hover,
         &:focus {
-          color: #ddd;
+          color: #fff;
+          background-color: mix(white, #191A20, 5);
+        }
+        &.cta {
+          background-color:#acfcc4;
+          border-radius: 4rem;
+          color:#1b1d26;
+          padding: 1rem 1rem;
+          text-align: center;
+          font-size: 1.5rem;
+          @media screen and (min-width: 1024px) {
+            padding: 0.75rem 0;
+            font-size: 0.9rem;
+          }
+          &:hover,
+          &:focus {
+            color:#1b1d26;
+            background: mix(black, #acfcc4, 5);
+          }
         }
       }
     }
@@ -137,12 +189,32 @@ export default {
     position: fixed;
     top: 80px;
     height: 100%;
-    max-width: 256px;
-    min-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     @media screen and (min-width: 1024px) {
       position: relative;
-      top: 0;
+      top: initial;
       height: auto;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+    & ul {
+      flex-grow: 0;
+      margin-bottom: 10rem;
+      @media screen and (min-width: 1024px) {
+        flex-grow: 1;
+        margin-bottom: initial;
+      }
+      & a {
+        font-size: 2rem;
+        padding: 1.5rem 2rem;
+        @media screen and (min-width: 1024px) {
+          font-size: initial;
+          padding: 1rem 2rem;
+        }
+      }
     }
   }
 }
