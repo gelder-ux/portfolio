@@ -174,12 +174,7 @@ a.logo {
           font-size: 1rem;
           @media screen and (min-width: 1024px) {
             padding: 0.75rem 0;
-            font-size: 0.9rem;
-          }
-          &:hover,
-          &:focus {
-            color:#1b1d26;
-            background: mix(black, #acfcc4, 5);
+            font-size: 1rem;
           }
         }
       }
@@ -206,7 +201,7 @@ a.logo {
         margin-bottom: initial;
       }
       & a {
-        font-size: 1.25rem;
+        font-size: 1rem;
         padding: 1.5rem 2rem;
         @media screen and (min-width: 1024px) {
           font-size: initial;

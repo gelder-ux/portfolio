@@ -4,7 +4,7 @@ subtitle: Designing a Better Patient Experience
 category:
   - Food
 author: Will Gelder
-date: 2018-07-29T17:30:16.858Z
+date: 2018-01-29T17:30:16.858Z
 featureImage: /uploads/cp.png
 role: UI/UX Designer
 market: Healthcare

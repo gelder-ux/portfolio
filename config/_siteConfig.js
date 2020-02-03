@@ -95,7 +95,7 @@ export default {
     imageDimensions: null, // See card.imageDimensions (can be unique for posts if set here)
     displayAuthor: false,
     date: {
-      display: true
+      display: false
     },
     perRow: 2,
     perPage: 6
