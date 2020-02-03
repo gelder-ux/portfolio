@@ -107,7 +107,7 @@ export default {
     padding-bottom: 0;
     @media screen and (min-width: 1024px) {
       padding-top: 14rem;
-      padding-bottom: 8rem;
+      padding-bottom: 4rem;
     }
   }
 

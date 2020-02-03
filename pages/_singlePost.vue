@@ -17,7 +17,7 @@
           <div class="post-meta-details">
             <span v-if="role"><strong>Role: </strong>{{ role }}</span>
             <span v-if="market"><strong>Market: </strong>{{ market }}</span>
-            <span v-if="duration"><strong>Duration: </strong>{{ duration }}</span>
+            <span v-if="duration"><strong>Project Length: </strong>{{ duration }}</span>
           </div>
           <markdown :markdown="$store.state.content" />
           <div class="other-posts">
@@ -79,20 +79,23 @@ export default {
 }
 .post-meta-details {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 4rem;
+  }
   & span {
     margin-bottom: 0.25rem;
     background: #f7f7f7;
     border-radius: 4rem;
     padding: 0.25rem 1rem;
-  }
-  & span:not(last-child) {
+    margin-left: 0.5rem;
     margin-right: 0.5rem;
-  }
-  margin-bottom: 0;
-  @media screen and (min-width: 1024px) {
-    margin-bottom: 4rem;
+    font-size: 0.75rem;
+    @media screen and (min-width: 1024px) {
+      font-size: 1rem;
+    }
   }
 }
 </style>

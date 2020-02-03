@@ -6,6 +6,9 @@ category:
 author: Will Gelder
 date: 2019-08-03T19:59:59.000Z
 featureImage: /uploads/wag-ds-logo.png
+role: Author
+market: Personal
+duration: Ongoing
 ---
 # Overview
 As the name might imply, the Gelder Design System incorporates all of the UI & UX knowledge and best practices that I have accrued over the course of my career.  
