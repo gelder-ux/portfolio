@@ -52,7 +52,7 @@ export default {
         {
           hid: 'og:url',
           property: 'og:url',
-          content: this.url
+          content: this.$store.state.siteUrl
         },
         {
           hid: 'twitter:card',

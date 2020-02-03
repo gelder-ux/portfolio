@@ -14,6 +14,7 @@ export default {
   tagline: 'Senior UX Designer with 5+ years of experience',
   // featureImage: '/uploads/home-hero.jpg',
   featureImage: 'https://willgelder.com/preview-image.png',
+  siteUrl: 'https://willgelder.com',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
