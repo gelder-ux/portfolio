@@ -104,10 +104,11 @@ export default {
 .hero {
   &.is-large .hero-body {
     padding-top: 4rem;
+    padding-bottom: 0;
     @media screen and (min-width: 1024px) {
       padding-top: 14rem;
+      padding-bottom: 8rem;
     }
-    padding-bottom: 8rem;
   }
 
   overflow: auto;

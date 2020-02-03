@@ -90,6 +90,9 @@ export default {
   & span:not(last-child) {
     margin-right: 0.5rem;
   }
-  margin-bottom: 4rem;
+  margin-bottom: 0;
+  @media screen and (min-width: 1024px) {
+    margin-bottom: 4rem;
+  }
 }
 </style>

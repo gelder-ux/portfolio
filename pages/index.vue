@@ -74,7 +74,10 @@ export default {
   text-align: left;
   margin-top: 1rem;
   max-width: 500px;
-  font-size: 1.25rem;
+  font-size: 1rem;
+  @media screen and (min-width: 1024px) {
+    font-size: 1.25rem;
+  }
   p {
     margin-top: 1rem;
   }
