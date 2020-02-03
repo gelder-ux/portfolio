@@ -37,7 +37,7 @@
           </component>
         </li>
         <li class="navbar-item cta-wrapper">
-          <a class="cta" href="mailto:willgelder9@gmail.com?subject=Hello Will">Reach Out</a>
+          <a class="cta" href="mailto:willgelder9@gmail.com?subject=Hello Will">Email Me</a>
         </li>
         <!-- <li class="navbar-item site-search-wrapper">
           <site-search />
@@ -150,10 +150,10 @@ a.logo {
           position: relative;
           bottom: initial;     
         }
-        &:hover,
-        &focus {
-          background-color: mix(white, #191A20, 5);
-        }
+        // &:hover,
+        // &focus {
+        //   background-color: mix(white, #191A20, 5);
+        // }
       }
       a {
         width: 100%;
