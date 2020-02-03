@@ -13,7 +13,7 @@ export default {
   // prettier-ignore
   tagline: 'Senior UX Designer with 5+ years of experience',
   // featureImage: '/uploads/home-hero.jpg',
-  featureImage: '',
+  featureImage: '/uploads/preview-image.png',
   logo: 'logo.svg', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
