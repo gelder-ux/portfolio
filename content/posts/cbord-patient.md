@@ -6,9 +6,10 @@ category:
 author: Will Gelder
 date: 2018-01-29T17:30:16.858Z
 featureImage: /uploads/cp.png
-role: UI/UX Designer
+role: UX Designer
 market: Healthcare
-duration: 1+ years
+duration: 1 year
+users: Hospital Patients
 ---
 ## Overview
 CBORD Patient provides hospital patients with meals offerings that are custom tailored to their dietary needs and restrictions during their stay. 

@@ -6,9 +6,10 @@ category:
 author: Will Gelder
 date: 2019-08-01T03:49:49.295Z
 featureImage: /uploads/ph.png
-role: UI/UX Designer
+role: Web Designer
 market: Freelance
-duration: 1 year
+duration: 
+users: Artists
 ---
 
 # Overview

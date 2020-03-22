@@ -8,7 +8,7 @@
         Subscribe To Newsletter
       </button> -->
       <section class="about-me">
-        <p>I am passionate about clean & concise user experiences for businesses, employees, and consumers alike. My strengths are in facilitation, visualizing problems, interface design, accessibility, and front end development.</p>
+        <p>Passionate about clean & concise user experiences. My strengths are in facilitation, visualizing problems, interface design, accessibility, and front end development.</p>
         <!-- <p>Currently, I am a Senior Service Designer at CBORD & Horizon Software where I design solutions serving the K-12, Higher Education, Senior Living, and Healthcare markets.</p> -->
       </section> 
     </site-hero>
@@ -84,8 +84,9 @@ export default {
 }
 
 html {
-  background-color: #fff;
   overflow: auto;
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%231e202d' fill-opacity='0.03' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 body {

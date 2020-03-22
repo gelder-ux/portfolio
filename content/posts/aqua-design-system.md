@@ -9,6 +9,7 @@ featureImage: /uploads/ads-logo.png
 role: Project Lead
 market: Internal
 duration: Ongoing
+users: CBORD Designers & Developers
 ---
 # Overview
 The Aqua Design System is on ongoing project to standardize CBORD & Horizon Software user interfaces across products.  

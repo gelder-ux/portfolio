@@ -147,7 +147,7 @@ export default {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.65);
+    background: transparent;
     position: absolute;
   }
   .hero-body {
@@ -169,7 +169,7 @@ export default {
 }
 .hero-theme-light.hero {
   &:after {
-    background: rgba(255, 255, 255, 1);
+    background: transparent;
   }
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div id="post-page" class="page-wrapper post-page main">
-    <site-hero :title="title" :subtitle="subtitle" :image="featureImage" :role="role" :market="market" :date="date" :duration="duration">
+    <site-hero :title="title" :subtitle="subtitle" :image="featureImage" :role="role" :market="market" :date="date" :duration="duration" :users="users">
       <!-- <span
         v-if="author && $siteConfig.posts.displayAuthor"
         class="author-wrapper"
@@ -18,6 +18,7 @@
             <span v-if="role"><strong>Role: </strong>{{ role }}</span>
             <span v-if="market"><strong>Market: </strong>{{ market }}</span>
             <span v-if="duration"><strong>Project Length: </strong>{{ duration }}</span>
+            <span v-if="users"><strong>Users: </strong>{{ users }}</span>
           </div>
           <markdown :markdown="$store.state.content" />
           <div class="other-posts">
@@ -59,7 +60,8 @@ export default {
       'slug',
       'role',
       'market',
-      'duration'
+      'duration',
+      'users'
     ]),
     date() {
       return getFormattedDate(this.$store.state.date)
@@ -80,18 +82,17 @@ export default {
 .post-meta-details {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 1rem;
   @media screen and (min-width: 1024px) {
     margin-bottom: 4rem;
   }
   & span {
-    margin-bottom: 0.25rem;
+    margin-bottom: 1rem;
     background: #f7f7f7;
     border-radius: 4rem;
     padding: 0.25rem 1rem;
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-right: 1rem;
     font-size: 0.75rem;
     @media screen and (min-width: 1024px) {
       font-size: 1rem;

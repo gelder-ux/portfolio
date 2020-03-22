@@ -58,6 +58,9 @@ export default {
 .hero + .page-main-section {
   margin-top: initial;
 }
+.section {
+  padding: 3rem 6rem;
+}
 .is-one-quarter {
   padding: 0 20px;
   &.right-sidebar {

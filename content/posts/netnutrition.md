@@ -6,9 +6,10 @@ category:
 author: Will Gelder
 date: 2019-07-29T17:30:16.858Z
 featureImage: /uploads/nn.png
-role: UI/UX Designer
-market: Higher Education/Healthcare
-duration: 5+ years
+role: UX Designer
+market: Higher Education
+duration:
+users: Students and staff
 ---
 
 # Overview
