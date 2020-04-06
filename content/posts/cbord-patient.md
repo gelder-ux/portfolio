@@ -12,23 +12,35 @@ duration: 1 year
 users: Hospital Patients
 ---
 ## Overview
-CBORD Patient provides hospital patients with meals offerings that are custom tailored to their dietary needs and restrictions during their stay. 
+CBORD Patient provides patients with meals that respect their dietary needs. 
 
 ## Landscape
-A number of our past solutions were already in use by our customers by the start of the project. These past solutions (while being desktop-only) allowed hospitals to manage menus, dietary restrictions, and ordering. All of the pieces were nearly in place. However, hospital staff still had to sink time into taking patient meal selections and inputing them into the system as orders. 
+A number of menu planning solutions were already in place for our customers at the start of this project. These systems allow hospitals to manage menus and patient dietary information. All of the pieces were in place for a consumer-centric mobile app. Prior to the app, patients would have to ask doctors and staff if certain foods were okay for them to eat.
 
-For patients with diet orders (such as "low sodium" or "low fiber") would have to ask staff if certain meal options were okay to eat, if they asked at all. Medical errors are a prime concern for patients and caregivers, and so proper adherence to diet orders is a priority for all.  
+We had an opportunity to improve both the staff and patient experiences, and so we set out to design a solution that would alleviate the above pain points. 
 
-We had an opportunity to improve both the staff and the patient experiences, and so we set out to design a solution that would hopefully alleviate some of the above pain points and address the following problems. 
-
-## Problems
+## The Problems
 - How can patients be sure that the meals they eat during their stay comply with their dietary requirements?
-- How can we help hospitals operate more efficiently when it comes to meal service?
+- How can we help hospitals operate more efficiently when it comes to food service?
 
-## Brainstorming
-From a development perspective, the back-end systems provided us with key pieces of information: patients, diet restrictions, menus, and meal orders; we simply had to design an intuitive front end for use by patients. However, the legal requirements specific to software in healthcare, especially in relation to patients, are strict.    
+## The Team
+The team initially consisted of a Business Analyst and myself as UX Designer. But at the peak of its development, the Patient Team expanded to included 5 Front End Developers, another Business Analyst, a second Designer, and 2 QA testers.  
 
 ## Wireframes & Prototypes
+At the start of the project, I created initial sitemaps and user flows.
+![User Flow](/uploads/tca-nav-system-v2.jpg)
+![Core Flow](/uploads/tca-core-flow.jpg)
+![Menu Wireframe](/uploads/tca-wireframe-1.jpg)
+![Patient empathy map](/uploads/tca-user-empathy-map.jpg)
+![Finished Login](/uploads/tca-finished-login.png)
+![Who are you?](/uploads/tca-finished-who.png)
+![MRN](/uploads/tca-finished-mrn.png)
+![Meals](/uploads/tca-finished-meals.png)
+![Menu](/uploads/tca-finished-menu-default.png)
+![Menu that is over](/uploads/tca-finished-menu-over.png)
+![Menu that is over](/uploads/tca-finished-switch-user.png)
+![Menu that is over](/uploads/tca-finished-order-summary.png)
+
 
 ## Usability Testing
 

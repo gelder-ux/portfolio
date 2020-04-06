@@ -11,7 +11,7 @@ import theCMS from '../cms/netlify/cms'
 export default {
   siteName: 'Will Gelder',
   // prettier-ignore
-  tagline: 'A personable and curious UX design leader',
+  tagline: 'UX Designer',
   // featureImage: '/uploads/home-hero.jpg',
   featureImage: 'https://willgelder.com/preview-image.png',
   siteUrl: 'https://willgelder.com',
