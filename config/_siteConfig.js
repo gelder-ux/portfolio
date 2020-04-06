@@ -23,7 +23,8 @@ export default {
   mainMenu: [
     {
       name: 'Work',
-      link: '/'
+      link: '/',
+      icon: ''
     },
     {
       name: 'LinkedIn',
