@@ -8,7 +8,7 @@
         Subscribe To Newsletter
       </button> -->
       <section class="about-me">
-        <p>Passionate about clean & concise user experiences. My strengths are in facilitation, visualizing problems, interface design, accessibility, and front end development.</p>
+        <p>Passionate about clean & concise user experiences. My strengths are in facilitation, brainstorming, interface design, accessibility, and front end development.</p>
         <!-- <p>Currently, I am a Senior Service Designer at CBORD & Horizon Software where I design solutions serving the K-12, Higher Education, Senior Living, and Healthcare markets.</p> -->
       </section> 
     </site-hero>
