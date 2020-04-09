@@ -26,7 +26,7 @@ export default {
   props: {
     perRow: { type: Number, default: 2 },
     number: { type: Number, default: 0 },
-    order: { type: String, default: 'DESC' },
+    order: { type: String, default: 'date' },
     category: {
       type: Array,
       default() {

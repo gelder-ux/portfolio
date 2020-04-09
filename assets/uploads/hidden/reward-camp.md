@@ -1,4 +1,4 @@
----
+<!-- ---
 title: RewardCamp
 subtitle: Ecommerce Rewards Program
 category:
@@ -15,4 +15,4 @@ users: Ecommerce merchants
 # Overview
 RewardCamp is an ecommerce plugin service that allows store owners to create their own rewards program for their customers.
 
-![Screenshot of Disqus homepage](/uploads/disqus-get-started.jpg)
+![Screenshot of Disqus homepage](/uploads/disqus-get-started.jpg) -->

@@ -4,23 +4,24 @@ subtitle: Designing a Better Patient Experience
 category:
   - Food
 author: Will Gelder
-date: 2018-01-29T17:30:16.858Z
+date: 2020-04-07T17:30:16.858Z
 featureImage: /uploads/cp.png
 role: UX Designer
 market: Healthcare
 # duration: 1 year
 users: Patients
+description: A
 ---
 ![CBORD Patient](/uploads/cp.png)
 ## Overview
-CBORD Patient offers custom-made menus for people with dietary restrictions while in the hospital.    
+CBORD Patient offers custom-made menus for hospital patients and guests. Menus are built to respect diet orders assigned to the patient.    
 
 ## The Context
-A number of menu planning solutions were already in place for our customers at the start of the project. These systems allow hospitals to manage menus and patient dietary information. Prior to the app, patients would need to use paper menus and were left unsure of which foods they were allowed to eat. All that remained was to design a consumer-grade mobile food ordering app. We had an opportunity to improve both the staff and patient experiences.
+A number of menuing systems were already in place for our existing customers. These systems allow hospitals to manage menus, patient diet information, and meal orders. Prior to the app, patients would need to use paper menus and were left unsure of which foods they were allowed to eat. We had an opportunity to improve both the staff and patient experiences through a consumer-facing mobile app: CBORD Patient.
 
 ## The Patient
 ![Patient empathy map](/uploads/tca-user-empathy-map.jpg)
-At its core, this is a food ordering app. However, since we were designing for patients in the hospital, we had to be extremely mindful of their surroundings and mindset. Feelings of stress, anxiety, and alienation all contribute to an altered state of mind. And so we felt it important to design a soothing experience for the patient.   
+At its core, this was a simple food ordering app. However, since we were designing for patients in the hospital, we had to be extremely mindful of their surroundings and mindset. At any given time, a patient endures stress, pain, anxiety, anda loss of control over their daily choices. And so we felt it important to design an experience that was both soothing and empowering by allowing patients to choose what they want to eat, rather than what they have to eat.   
 
 ## The Early Stages
 ![Core Flow](/uploads/tca-core-flow.jpg)

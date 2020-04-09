@@ -8,7 +8,7 @@
         Subscribe To Newsletter
       </button> -->
       <section class="about-me">
-        <p>Passionate about efficient user experiences. Comfortable designing for enterprise solutions. And enjoys untangling complex systems.</p>
+        <p>A senior designer passionate about crafting smart & intuitive user experiences. Currently crafting design systems and enterprise applications for the Healthcare and Food industries.</p>
         <!-- <p>Currently, I am a Senior Service Designer at CBORD & Horizon Software where I design solutions serving the K-12, Higher Education, Senior Living, and Healthcare markets.</p> -->
       </section> 
     </site-hero>
