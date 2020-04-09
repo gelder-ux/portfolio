@@ -22,7 +22,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'Work',
+      name: 'Home',
       link: '/',
       icon: ''
     },
