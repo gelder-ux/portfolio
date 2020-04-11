@@ -43,15 +43,28 @@ Since the app takes into account the patient's diet order, it will budget and tr
 Another challenge we had was making sure that the app could handle guest orders. Our existing hospital system supports the notion of patient guests. These guests could be spouses, family members, relatives, friends, etc. 
 
 ## Beginnings
-I began by defining the information architecture and navigation system post-login. Since the core of the app was about ordering, I thought it best to nail down that experience first. I decided to keep it simple by presenting a list of meals on the home screen. Once a user selects one, "Breakfast" for example, they are presented with the menu view and begin the item selection loop, or order lifecycle. 
+I began by defining the information architecture and navigation system post-login. Since the core of the app was about ordering, I thought it best to nail down that experience first. I decided to keep it simple by presenting a list of meals on the home screen. Once a user selects one, "Breakfast" for example, they are presented with the menu view and begin the order lifecycle. 
+###
 ![User Flow](/uploads/tca-nav-system-v2.jpg)
 
-### Onboarding
-The onboarding flow posed a challenge: we needed a secure method of verifying that the user was truly the patient they claimed to be. We posited a few ideas but ultimately landed on the most secure method. The user needs to provide their date of birth, medical record number (MRN), and the hospital's facility ID (defined by our backend system). The MRN is commonly found on the patient's wristband.
+As shown in the diagram, the user advances the state of the order by making food selections, looking at the order summary, and ultimately placing the order.
 
+## Onboarding
+We also needed a secure method of verifying the identity of the user in order to associate them with the enrolled patient. The user needs to provide their date of birth, medical record number (MRN), and the hospital's facility ID (defined by our backend system).
 
-![Core Flow](/uploads/tca-core-flow.jpg)
+## Guest Ordering
+##
+![Core Flow](/uploads/tca-core-flow.png)
+
+## Menu Iteration
+We experimented with various ways to display foods. Images of food were important for patients that either could not read or did not understand the language as they could rely on the imagery to make selections.
+##
 ![Menu Wireframe](/uploads/tca-wireframe-1.jpg)
+
+![Core Flow](/uploads/tca-early-menu-gauges.jpg)
+![Core Flow](/uploads/tca-early-menu-grid.jpg)
+![Core Flow](/uploads/tca-early-menu-error-state.jpg)
+
 ![Finished Login](/uploads/tca-finished-login.png)
 ![Who are you?](/uploads/tca-finished-who.png)
 ![MRN](/uploads/tca-finished-mrn.png)
