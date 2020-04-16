@@ -43,23 +43,25 @@ Since the app takes into account the patient's diet order, it will budget and tr
 Another challenge we had was making sure that the app could handle guest orders. Our existing hospital system supports the notion of patient guests. These guests could be spouses, family members, relatives, friends, etc. 
 
 ## Beginnings
-I began by defining the information architecture and navigation system post-login. Since the core of the app was about ordering, I thought it best to nail down that experience first. I decided to keep it simple by presenting a list of meals on the home screen. Once a user selects one, "Breakfast" for example, they are presented with the menu view and begin the order lifecycle. 
+I began by defining the information architecture and navigation system, post-login. Since the core of the app was about ordering, I thought it best to nail down that experience first. I decided to keep it simple by presenting a list of meals on the home screen. Once a user selects one, "Breakfast" for example, they are presented with the menu view and begin the order lifecycle. 
 ###
 ![User Flow](/uploads/tca-nav-system-v2.jpg)
 
-As shown in the diagram, the user advances the state of the order by making food selections, looking at the order summary, and ultimately placing the order.
+As shown in the diagram, the user advances the state of the order by making food selections, looking at the order summary, and ultimately placing the order; the core loop.
 
 ## Onboarding
-We also needed a secure method of verifying the identity of the user in order to associate them with the enrolled patient. The user needs to provide their date of birth, medical record number (MRN), and the hospital's facility ID (defined by our backend system).
+We also needed a secure method of verifying the identity of the user in order to associate them with the enrolled patient. The user needs to provide their date of birth, medical record number (MRN), and the hospital's facility ID (defined by our backend system). This combination of information guarantees the validity of the user as the patient.
 
 ## Guest Ordering
+Our existing backend systems support the notion of patient guests. This gives hospitals the ability to process patient and guest meals. These are represented by "roles". Examples include: Father, Mother, Friend, and any other types defined by the hospital. For this reason we decided that the app would also need to support both patient and guest ordering. 
 ##
 ![Core Flow](/uploads/tca-core-flow.png)
+We revised the core ordering flow to accommodate this more complex requirement. 
 
 ## Menu Iteration
 We experimented with various ways to display foods. Images of food were important for patients that either could not read or did not understand the language as they could rely on the imagery to make selections.
 ##
-![Menu Wireframe](/uploads/tca-wireframe-1.jpg)
+![Menu Wireframe](/uploads/tca-wireframe-1.png)
 
 ![Core Flow](/uploads/tca-early-menu-gauges.jpg)
 ![Core Flow](/uploads/tca-early-menu-grid.jpg)
