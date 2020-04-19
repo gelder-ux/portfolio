@@ -59,22 +59,25 @@ Our existing backend systems support the notion of patient guests. This gives ho
 We revised the core ordering flow to accommodate this more complex requirement. 
 
 ## Menu Iteration
-We experimented with various ways to display foods. Images of food were important for patients that either could not read or did not understand the language as they could rely on the imagery to make selections.
+We experimented with various ways of displaying food. Images of food were important for patients that either could not read or did not understand the language as they could rely on the imagery to make selections.
 ##
+
 ![Menu Wireframe](/uploads/tca-wireframe-1.png)
+##
 
-![Core Flow](/uploads/tca-early-menu-gauges.jpg)
-![Core Flow](/uploads/tca-early-menu-grid.jpg)
-![Core Flow](/uploads/tca-early-menu-error-state.jpg)
+![Early Wireframes](/uploads/tca-early-wireframes.png)
+##
 
-![Finished Login](/uploads/tca-finished-login.png)
-![Who are you?](/uploads/tca-finished-who.png)
-![MRN](/uploads/tca-finished-mrn.png)
-![Meals](/uploads/tca-finished-meals.png)
-![Menu](/uploads/tca-finished-menu-default.png)
-![Menu that is over](/uploads/tca-finished-menu-over.png)
-![Menu that is over](/uploads/tca-finished-switch-user.png)
-![Menu that is over](/uploads/tca-finished-order-summary.png)
+![Finished Login](/uploads/tca-early-finished-1.png)
+##
+
+![Meals](/uploads/tca-finished-2.png)
+##
+
+![Menu](/uploads/tca-finished-3.png)
+##
+
+![Menu that is over](/uploads/tca-finished-4.png)
 
 
 ## Usability Testing
