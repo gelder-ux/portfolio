@@ -27,7 +27,7 @@ At its core, this was a simple food ordering app. But since we were designing fo
 It was incredibly important for us to design a food ordering experience that was both simple and empowering. Allowing patients to choose for themselves again was our goal. 
 
 ### Hospitals
-In addition to the patient, we needed to make sure the app served hospitals in a meaningful way. Prior, a few of our customers had hired third-party developers to create a front end for the APIs exposed by our backend systems. This had mixed results for patients in terms of ease-of-use and adoption and ultimately left many patients confused and frustrated by the technical jargon and obtuse wayfinding of these apps. Not to mention many of these apps were integrated with television systems which also exacerbated navigation frustration.
+In addition to the patient, we needed to make sure the app served hospitals in a meaningful way. In the past, some customers had hired third-party developers to create front ends for the APIs we exposed from the backend systems. This had mixed results for patients in terms of ease-of-use and adoption and ultimately left many patients confused and frustrated by the technical jargon and obtuse wayfinding of these apps. Not to mention many of these apps were integrated with television systems which also exacerbated navigation frustration.
 
 ### Team
 At the start of the project, the team consisted of a Business Analyst and myself as the UX Designer. Our analyst was also a healthcare dietician and so we worked closely on the user experience. 
@@ -56,29 +56,21 @@ We also needed a secure method of verifying the identity of the user in order to
 Our existing backend systems support the notion of patient guests. This gives hospitals the ability to process patient and guest meals. These are represented by "roles". Examples include: Father, Mother, Friend, and any other types defined by the hospital. For this reason we decided that the app would also need to support both patient and guest ordering. 
 ##
 ![Core Flow](/uploads/tca-core-flow.png)
-We revised the core ordering flow to accommodate this more complex requirement. 
+We revised the core ordering flow to accommodate this more complex requirement. The user is able to switch roles at any time during the ordering process via our "patron picker" mechanism. 
 
-## Menu Iteration
-We experimented with various ways of displaying food. Images of food were important for patients that either could not read or did not understand the language as they could rely on the imagery to make selections.
-##
-
-![Menu Wireframe](/uploads/tca-wireframe-1.png)
-##
-
+## The Menu
 ![Early Wireframes](/uploads/tca-early-wireframes.png)
-##
+By far, the menu view underwent the most iteration throughout the project. Our initial designs displayed a 2 column grid of food with prominent imagery. However, upon usability testing users wanted to see more options at a time. Also, if items did not have photos uploaded, the usability of the grid declined; items would appear as solid blocks of color. Subsequent designs leveraged a more standard list view that could handle missing food images more elegantly. Ultimately, we felt that food images were important for users for various reasons. Images could be a substitute for text for young children as well as for users unfamiliar with english.
+
 
 ![Finished Login](/uploads/tca-early-finished-1.png)
-##
+
 
 ![Meals](/uploads/tca-finished-2.png)
-##
 
 ![Menu](/uploads/tca-finished-3.png)
-##
 
 ![Menu that is over](/uploads/tca-finished-4.png)
-
 
 ## Usability Testing
 
