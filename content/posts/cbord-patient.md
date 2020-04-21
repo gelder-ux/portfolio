@@ -30,7 +30,7 @@ It was incredibly important for us to design a food ordering experience that was
 In addition to the patient, we needed to make sure the app served hospitals in a meaningful way. In the past, some customers had hired third-party developers to create front ends for the APIs we exposed from the backend systems. This had mixed results for patients in terms of ease-of-use and adoption and ultimately left many patients confused and frustrated by the technical jargon and obtuse wayfinding of these apps. Not to mention many of these apps were integrated with television systems which also exacerbated navigation frustration.
 
 ### Team
-At the start of the project, the team consisted of a Business Analyst and myself as the UX Designer. Our analyst was also a healthcare dietician and so we worked closely on the user experience. 
+At the start of the project, the team consisted of a Business Analyst and myself as the UX Designer. Our analyst was also a healthcare dietician and so we worked closely on the user experience. Eventually, as the project gained traction, our team expanded to include multiple developers, QA testers, and designers.
 
 ### Security
 It's important to note that from a patient confidentiality standpoint, the app does not store any personal information. It is part of a secured system within the hospital.
@@ -60,17 +60,23 @@ We revised the core ordering flow to accommodate this more complex requirement. 
 
 ## The Menu
 ![Early Wireframes](/uploads/tca-early-wireframes.png)
-By far, the menu view underwent the most iteration throughout the project. Our initial designs displayed a 2 column grid of food with prominent imagery. However, upon usability testing users wanted to see more options at a time. Also, if items did not have photos uploaded, the usability of the grid declined; items would appear as solid blocks of color. Subsequent designs leveraged a more standard list view that could handle missing food images more elegantly. Ultimately, we felt that food images were important for users for various reasons. Images could be a substitute for text for young children as well as for users unfamiliar with english.
+
+By far, the menu view underwent the most iteration throughout the project. Our initial designs displayed a 2 column tile grid of foods. However, upon usability testing, we found that users wanted to see more options at a time. Scannability and scroll fatigue contributed to this feeling. Also, if items did not have photos, the usability of the grid declined; items would appear as solid blocks of color and often distracted users. Subsequent designs leveraged a more subtle list view that could handle missing food images more elegantly. 
+
+A key feature to note are the nutrient gauges (found at the bottom of the menu in earlier designs). These gauges are displayed according to the patient's diet order assigned to them. Each gauge tracks a nutrient controlled by the diet order. As the patient adds foods to their order, the gauges update to reflect the amount of nutrients found in those foods. These act as a sort of "budget" for the patient. If the patient is over their budget, they cannot place the order and have to balance out their meal in order to stay under their limits.     
+
+![Finished Onboarding](/uploads/tca-early-finished-1.png)
 
 
-![Finished Login](/uploads/tca-early-finished-1.png)
 
+![Finished Meals](/uploads/tca-finished-2.png)
 
-![Meals](/uploads/tca-finished-2.png)
+![Finished Menu](/uploads/tca-finished-3.png)
 
-![Menu](/uploads/tca-finished-3.png)
+![Finished Placed Order](/uploads/tca-finished-4.png)
 
-![Menu that is over](/uploads/tca-finished-4.png)
+![Usability Testing](/uploads/tca-usability-testing-raw.png)
+
 
 ## Usability Testing
 
