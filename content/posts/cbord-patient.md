@@ -65,6 +65,12 @@ By far, the menu view underwent the most iteration throughout the project. Our i
 
 A key feature to note are the nutrient gauges (found at the bottom of the menu in earlier designs). These gauges are displayed according to the patient's diet order assigned to them. Each gauge tracks a nutrient controlled by the diet order. As the patient adds foods to their order, the gauges update to reflect the amount of nutrients found in those foods. These act as a sort of "budget" for the patient. If the patient is over their budget, they cannot place the order and have to balance out their meal in order to stay under their limits.     
 
+## Development
+Due to the aggressive nature of the project timeline, we did not have the luxury of creating and testing all of our assumptions before development was scheduled to start. Much of the design of the app occured in tandem with the development team. 
+
+![Usability Testing](/uploads/tca-usability-testing-raw.png)
+
+
 ![Finished Onboarding](/uploads/tca-early-finished-1.png)
 The onboarding experience underwent a lot of iteration as well. Upon prelimenary usability testing, we found that the process for creating an account to be tedious for the user. Some struggled with creating a password and verifying it. Some struggled with the date picking control we used when specifying their date of birth. 
 
@@ -75,7 +81,6 @@ The onboarding experience underwent a lot of iteration as well. Upon prelimenary
 
 ![Finished Placed Order](/uploads/tca-finished-4.png)
 
-![Usability Testing](/uploads/tca-usability-testing-raw.png)
 
 
 ## Usability Testing
