@@ -22,9 +22,9 @@ A number of hospital menuing systems were already in place for our existing cust
 ### Patients
 ![Patient empathy map](/uploads/tca-user-empathy-map.jpg)
 ###
-At its core, this was a simple food ordering app. But since we were designing for patients, who range widely from one demographic to another, it was impossible to make assumptions about age, ethnicity, language, or literacy. We had to be sensitive to their current situation. At any time, patients could experience stress, pain, anxiety, and helplessness. Everyday choices that were once theirs to make were now being made for them by strangers. 
+At its core, this is a food ordering app. But since we were designing for patients, it was impossible to make reliable assumptions about age, language, and technology proficiency. We had to be sensitive their context. Patients can experience stress, pain, anxiety, and helplessness at any point. Everyday choices that were once theirs to make are now being made for them by strangers. 
 
-It was incredibly important for us to design a food ordering experience that was both simple and empowering. Allowing patients to choose for themselves again was our goal. 
+It was incredibly important for us to design an experience that was both simple and empowering. Empowering patients to make their own choices was our focus.
 
 ### Hospitals
 In addition to the patient, we needed to make sure the app served hospitals in a meaningful way. In the past, some customers had hired third-party developers to create front ends for the APIs we exposed from the backend systems. This had mixed results for patients in terms of ease-of-use and adoption and ultimately left many patients confused and frustrated by the technical jargon and obtuse wayfinding of these apps. Not to mention many of these apps were integrated with television systems which also exacerbated navigation frustration.
@@ -66,13 +66,13 @@ By far, the menu view underwent the most iteration throughout the project. Our i
 A key feature to note are the nutrient gauges (found at the bottom of the menu in earlier designs). These gauges are displayed according to the patient's diet order assigned to them. Each gauge tracks a nutrient controlled by the diet order. As the patient adds foods to their order, the gauges update to reflect the amount of nutrients found in those foods. These act as a sort of "budget" for the patient. If the patient is over their budget, they cannot place the order and have to balance out their meal in order to stay under their limits.     
 
 ## Development
-Due to the aggressive nature of the project timeline, we did not have the luxury of creating and testing all of our assumptions before development was scheduled to start. Much of the design of the app occured in tandem with the development team. 
+Due to the aggressive nature of the project timeline, we did not have the luxury of creating and testing all of our assumptions before development was scheduled to start. Much of the design of the app occured in tandem with the development team.  
 
 ![Usability Testing](/uploads/tca-usability-testing-raw.png)
 
 
 ![Finished Onboarding](/uploads/tca-early-finished-1.png)
-The onboarding experience underwent a lot of iteration as well. Upon prelimenary usability testing, we found that the process for creating an account to be tedious for the user. Some struggled with creating a password and verifying it. Some struggled with the date picking control we used when specifying their date of birth. 
+The onboarding experience underwent a lot of iteration as well. Upon prelimenary usability testing, we found that the process for creating an account to be tedious for the user. Some struggled with creating a password and verifying it. Some struggled with the date picking control we used when specifying their date of birth. In further iterations, we simplified the password creation process and using the native device date picker control. Upon retest, those issues went away. 
 
 
 ![Finished Meals](/uploads/tca-finished-2.png)

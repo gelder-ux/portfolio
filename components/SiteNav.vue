@@ -104,6 +104,11 @@ a.logo {
 .navbar-item img {
   max-height: 4rem;
 }
+
+.navbar-item:focus {
+  outline: none;
+}
+
 .site-search-wrapper {
   transform: translateX(5px);
   @media (max-width: 1023px) {
@@ -163,6 +168,7 @@ a.logo {
         &:hover,
         &:focus {
           color: #fff;
+          outline: none;
           background-color: mix(white, #191A20, 5);
         }
         &.cta {
@@ -172,9 +178,14 @@ a.logo {
           padding: 1rem 1rem;
           text-align: center;
           font-size: 1rem;
+          transition: filter 100ms ease-in-out;
           @media screen and (min-width: 1024px) {
-            padding: 0.75rem 0;
+            padding: 0.5rem 0;
             font-size: 1rem;
+          }
+          &:hover,
+          &:focus {
+            filter:saturate(2);
           }
         }
       }
