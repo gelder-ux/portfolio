@@ -68,7 +68,6 @@ A key feature to note are the nutrient gauges (found at the bottom of the menu i
 ## Development
 Due to the aggressive nature of the project timeline, we did not have the luxury of creating and testing all of our assumptions before development was scheduled to start. Much of the design of the app occured in tandem with the development team.  
 
-![Usability Testing](/uploads/tca-usability-testing-raw.png)
 
 
 ![Finished Onboarding](/uploads/tca-early-finished-1.png)
@@ -84,9 +83,15 @@ The onboarding experience underwent a lot of iteration as well. Upon prelimenary
 
 
 ## Usability Testing
+![Usability Testing](/uploads/tca-usability-testing-raw.png)
+Testing was made difficult by the dual nature of the project; design and development happened in parallel leading to broken builds, design updates, and communication issues with the backend. However, we did bring a test build to our user group conference and conducted usability tests with attendees with Healthcare expertise.  
 
 ## Future Plans
+- Enhancements to the onboarding experience
 - Guest Payment
+
+## Retrospective
+
 
 Download
 - [App Store](https://apps.apple.com/us/app/cbord-patient/id1319336992)
