@@ -14,23 +14,24 @@ description: A
 ---
 ![CBORD Patient](/uploads/cp.png)
 ## Overview
-CBORD Patient offers custom-made menus for hospital patients and guests. Menus are built to respect diet orders assigned to the patient.    
+CBORD Patient is a meal ordering app for patients. With safety as the prime concern, CBORD Patient guarantees that menu offerings are custom-tailored to meet the needs of each and every patient.    
 
-## Background
-A number of hospital menuing systems were already in place for our existing customers. These systems allow hospitals to manage menus, patient diet information, and meal orders. Prior to the app, patients would need to use paper menus and were left unsure of which foods they were allowed to eat. We had an opportunity to improve both the staff and patient experiences through a consumer-facing mobile app: CBORD Patient.
+## Problem
+A number of our proprietary hospital menuing systems were already in place for our existing customers. These systems allowed hospitals to manage menus, patient diet information, and meal orders. However, prior to the app, patients would need to use paper menus and were left feeling unsure of which foods they were allowed to eat. We had an opportunity to improve both the staff and patient experiences through a consumer-facing mobile app: CBORD Patient.
+
+## Solution
+By reducing meal ordering inefficiencies, CBORD Patient hopes to remove one of the many bottlenecks within the healthcare system. Patients are empowered to order for themselves via their smartphones and hospital staff can be freed up to focus on their high priority responsibilities. 
 
 ### Patients
 ![Patient empathy map](/uploads/tca-user-empathy-map.jpg)
 ###
-At its core, this is a food ordering app. But since we were designing for patients, it was impossible to make reliable assumptions about age, language, and technology proficiency. We had to be sensitive their context. Patients can experience stress, pain, anxiety, and helplessness at any point. Everyday choices that were once theirs to make are now being made for them by strangers. 
-
-It was incredibly important for us to design an experience that was both simple and empowering. Empowering patients to make their own choices was our focus.
+Since we were designing for patients, it was impossible to make consistent assumptions about age, language, and familiarity with technology. Patients often experience stress, pain, anxiety, and helplessness. Everyday choices that were once theirs to make were being made for them by strangers. With this loss of control, it was important for us to design an experience that was both simple, yet empowering. 
 
 ### Hospitals
-In addition to the patient, we needed to make sure the app served hospitals in a meaningful way. In the past, some customers had hired third-party developers to create front ends for the APIs we exposed from the backend systems. This had mixed results for patients in terms of ease-of-use and adoption and ultimately left many patients confused and frustrated by the technical jargon and obtuse wayfinding of these apps. Not to mention many of these apps were integrated with television systems which also exacerbated navigation frustration.
+We needed to make sure that the app served hospitals in a meaningful way as well. In the past, some customers had hired third-party developers to create user interfaces leveraging the APIs that we had exposed from the backend systems. This had mixed results for patients in terms of ease-of-use and adoption, and ultimately left many patients confused and frustrated by the technical jargon and obtuse navigation. Not to mention many of these apps were integrated into hospital television systems which also exacerbated patients.
 
 ### Team
-At the start of the project, the team consisted of a Business Analyst and myself as the UX Designer. Our analyst was also a healthcare dietician and so we worked closely on the user experience. Eventually, as the project gained traction, our team expanded to include multiple developers, QA testers, and designers.
+At the start of the project, the team consisted of a Business Analyst and myself as the UX Designer. Our analyst was a healthcare dietician (RDN) which gave us a head start in terms of assumptions we needed to make about patient nutrition. For example, there are various types of "dietary orders" used by hospitals that limit the amount of specific nutrients found in food. Having an RDN on the team provided key insights during the design phase. Eventually, as the project gained traction, our team expanded to include multiple developers, QA testers, and designers.
 
 ### Security
 It's important to note that from a patient confidentiality standpoint, the app does not store any personal information. It is part of a secured system within the hospital.

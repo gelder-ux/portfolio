@@ -8,7 +8,7 @@
         Subscribe To Newsletter
       </button> -->
       <section class="about-me">
-        <p>Passionate about crafting smart & intuitive user experiences. Currently crafting design systems and B2B applications.</p>
+        <p>Passionate about crafting smart & intuitive user experiences. Currently crafting design systems and B2B applications for business and consumers alike.</p>
         <!-- <p>Currently, I am a Senior Service Designer at CBORD & Horizon Software where I design solutions serving the K-12, Higher Education, Senior Living, and Healthcare markets.</p> -->
       </section> 
     </site-hero>
