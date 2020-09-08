@@ -1,5 +1,5 @@
 ---
-title: CBORD Patient
+title: Patient Food Ordering App
 subtitle: Designing a Better Patient Experience
 category:
   - Food
@@ -14,7 +14,7 @@ description: A
 ---
 ![CBORD Patient](/uploads/cp.png)
 ## Overview
-CBORD Patient is a meal ordering app for patients. With safety as the prime concern, CBORD Patient guarantees that menu offerings are custom-tailored to meet the needs of each and every patient.    
+As the name implies, this is a meal ordering app for hospital patients. With safety as the prime concern, the app guarantees that menu offerings abide by the medical requirements of each patient.    
 
 ## Problem
 A number of our proprietary hospital menuing systems were already in place for our existing customers. These systems allowed hospitals to manage menus, patient diet information, and meal orders. However, prior to the app, patients would need to use paper menus and were left feeling unsure of which foods they were allowed to eat. We had an opportunity to improve both the staff and patient experiences through a consumer-facing mobile app: CBORD Patient.
