@@ -117,4 +117,12 @@ export default {
     }
   }
 }
+
+.column.items:first-child {
+  width: 100% !important;
+
+  img {
+    height: 100%;
+  }
+}
 </style>

@@ -21,13 +21,12 @@
             <span v-if="users"><strong>Users: </strong>{{ users }}</span>
           </div>
           <markdown :markdown="$store.state.content" />
-          <div class="other-posts">
+          <!-- <div class="other-posts">
             <h6 class="subtitle is-size-4">
               Related Projects
             </h6>
-            <!-- Related Posts -->
             <posts-grid :number="3" :category="category" :exclude="slug" />
-          </div>
+          </div> -->
           <!-- <disqus-comments :identifier="$route.params.singlePost" /> -->
         </div>
       </template>

@@ -11,7 +11,7 @@ duration: Ongoing
 users: Designers
 ---
 # Overview
-As the name might imply, the Gelder Design System incorporates all of the UI & UX knowledge and best practices that I have accrued over the course of my career.  
+As the name might imply, the Gelder Design System captures many of the best practices that I have internalized throughout the years as a UX practitioner.  
 
 The Gelder Design System is comprised of: 
 * Guidelines, diagrams, and user flows for common features found in many products today 
