@@ -14,12 +14,12 @@
     <main-section :one-column-constrained="true">
       <template v-slot:default>
         <div class="post-wrapper">
-          <div class="post-meta-details">
+          <!-- <div class="post-meta-details">
             <span v-if="role"><strong>Role: </strong>{{ role }}</span>
             <span v-if="market"><strong>Market: </strong>{{ market }}</span>
             <span v-if="duration"><strong>Project Length: </strong>{{ duration }}</span>
             <span v-if="users"><strong>Users: </strong>{{ users }}</span>
-          </div>
+          </div> -->
           <markdown :markdown="$store.state.content" />
           <!-- <div class="other-posts">
             <h6 class="subtitle is-size-4">
