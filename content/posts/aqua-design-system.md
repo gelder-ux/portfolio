@@ -37,6 +37,9 @@ At the time, Sketch's component-based model seemed to align with our organizatio
 ## Designer Deep Dives
 Along with the deliverables mentioned, even more time was spent deliberating and discussing aspects of the system: components, color systems, and accessibility to name a few. We established recurring meetings dedicated to a single aspect and documented our thoughts and agreed understandings.
 
+## Development
+Having a shared library of code was by no means a simple challenge. With over a dozen products, each at various product lifecycle, and created by different teams via different technologies, it would seem that the project would grind to a halt. However, through discussion with development teams, it was decided that only new applications would try to adopt the system and when opportunities would arise changes to would be made to existing products. We chose to write code in Ionic which could be transpiled into Angular, React, Web Components, or simple Javascript and CSS.
+
 # Today
 Fast forward to today, 
 - Zeroheight documentation (SS+link)
