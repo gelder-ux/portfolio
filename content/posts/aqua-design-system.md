@@ -12,8 +12,11 @@ role: Project Lead
 # users: CBORD Designers & Developers
 ---
 ![Aqua Design System](/uploads/ads-cover.png)
+# Role
+Lead Designer
+
 # Overview
-The Aqua Design System strives to distill UI best-practices into a simple, yet flexible design language for use by designers and product teams. 
+The Aqua Design System strives to distill UI best-practices into a simple, yet flexible design language for use by designers and product teams across our Health Care, Higher Education, and K-12 markets. 
 
 # Context
 For decades, teams at CBORD & Horizon were organized into siloes. As such, teams chose to adopt differing UI technologies, resulting in a suite of products with inconsistent UX. Interaction patterns learned by the user for one product did not translate to the next. At its best, users would have to learn new patterns for common tasks, at its worst, users would not understand them at all. In 2015, as the company began to invest more in design, and more products than ever needed to be developed, it was clear that we needed a shared design language to help standardize the UX across the company; what we dubbed the "Aqua Design System".
